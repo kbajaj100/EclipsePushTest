@@ -16,7 +16,7 @@ public class MainClass {
 	
 		DBConn myconn = new DBConn();
 			
-		int rulecount = 4;
+		int rulecount = 1;
 		int dummy; 
 		
 		//myconn.getRuleCount();
