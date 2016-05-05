@@ -22,6 +22,8 @@ public class DBConn {
 	
 	private int count = 0;
 	private String code;
+	
+	DBExecute myExecute = new DBExecute();
 
 	
 	public int execSQL_returnint(String SQL)

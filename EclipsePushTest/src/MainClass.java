@@ -13,7 +13,6 @@ public class MainClass {
 	
 	public static void main(String[] args){
 		
-	
 		DBConn myconn = new DBConn();
 			
 		int rulecount = 4;
@@ -24,6 +23,8 @@ public class MainClass {
 		
 		for (int i = 1; i<= rulecount; ++i) //i is the RuleID
 			dummy = ExecuteRule(i, myconn); //Will execute each rule by sending the Rule ID
+		
+		System.out.println("Program ran successfully");
 	}
 
 	private static int ExecuteRule(int RuleID, DBConn myconn) {
