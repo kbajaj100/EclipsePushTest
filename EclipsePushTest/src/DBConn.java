@@ -9,7 +9,7 @@ public class DBConn {
 	
 	private String dbName = "RevAscent_LIPS";
 	private String user = "sa";
-	private String pass = "infoworld1";
+	private String pass = "";
 	
 	private String dbUrl = "jdbc:sqlserver://localhost:1433;databaseName=" + dbName + ";user=" + user + ";password=" + pass;
 
